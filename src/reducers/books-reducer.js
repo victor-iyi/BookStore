@@ -21,6 +21,15 @@ export default () => {
 		{ key: 7, 
 			title: 'Classroom in a Book' 
 		},
+		{ key: 8, 
+			title: 'Web development: Ruby on Rails' 
+		},
+		{ key: 9, 
+			title: 'Laravel: The PHP Framework' 
+		},
+		{ key: 10, 
+			title: 'vFrame: The Dopest way to Web dev' 
+		},
 		
 	]
 }
