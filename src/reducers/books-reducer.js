@@ -29,7 +29,6 @@ export default () => {
 		},
 		{ key: 10, 
 			title: 'vFrame: The Dopest way to Web dev' 
-		},
-		
+		}
 	]
 }
