@@ -54,7 +54,7 @@ const mapStateToProps = (state) => {
 }
 
 const mapDispatchToProps = (dispatch) => {
-	return bindActionCreators({ selectBook: selectBook }, dispatch)
+	return bindActionCreators({selectBook: selectBook}, dispatch)
 }
 
 //
