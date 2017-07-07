@@ -6,7 +6,7 @@ import { selectBook } from '../actions'
 
 /**
 	* NOTE:
-	* Containers are Components that have direct
+	* Containers are Component that have direct
 	* connection with the application state
 	* And only the most parent Component that
 	* cares about A PARTICULAR PIECE OF STATE should be promoted
@@ -53,9 +53,10 @@ const mapStateToProps = (state) => {
 	}
 }
 
+// bindActionCreators ->
 const mapDispatchToProps = (dispatch) => {
 	return bindActionCreators({selectBook: selectBook}, dispatch)
 }
 
-//
+// Promotes BookList from a (dumb) component to a container (smart component)
 export default connect(mapStateToProps, mapDispatchToProps)(BookList)
