@@ -1,11 +1,13 @@
 import { combineReducers } from 'redux';
-import BooksReducer from './books-reducer'
+import Books from './books'
+import ActiveBook from './active-book'
 
 /**
   * Global application state.
 */
 const rootReducer = combineReducers({
-  books: BooksReducer
+  books: Books,
+  activeBook: ActiveBook
 });
 
 export default rootReducer;
